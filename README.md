@@ -24,7 +24,9 @@ Turtlebot3 e-Manual  :  http://emanual.robotis.com/docs/en/platform/turtlebot3/a
 
   `$ source dependencies_for_burger.sh`
 
-* step2. allow raspberry pi to use USB port for OpenCR without acquiring root permission.
+* step2. allow raspberry pi to use USB port for OpenCR without acquiring root permission , and download the driver to openCR 1.0 .
+  
+  Note : raspberry pi must connet openCR with usb-port. 
   
   `$ source ~/turtlebot3_burger/catkin_ws/openCR_setup.sh`
 
