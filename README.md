@@ -15,6 +15,7 @@ Turtlebot3 e-Manual  :  http://emanual.robotis.com/docs/en/platform/turtlebot3/a
 * step2. build catkin_ws
   
   `$ cd ~/turtlebot3_burger/catkin_ws`
+
   `$ catkin_make`
 
 # Operate on raspberry pi for Turtlebot3 burger
@@ -30,4 +31,5 @@ Turtlebot3 e-Manual  :  http://emanual.robotis.com/docs/en/platform/turtlebot3/a
 * step3. build catkin_ws
   
   `$ cd ~/turtlebot3_burger/catkin_ws/openCR_setup.sh`
+
   `$ catkin_make`
