@@ -6,7 +6,9 @@ if [[ `id -u` -eq 0 ]] ; then
 fi
 
 
-sudo cp ~/catkin_ws 
+sudo cp  ./turtlebot3_burger/turtlebot3.rules /etc/udev/rules.d/turtlebot3.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
 
 export OPENCR_PORT=/dev/ttyACM0
 export OPENCR_MODEL=burger
