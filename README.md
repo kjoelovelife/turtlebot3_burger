@@ -30,6 +30,6 @@ Turtlebot3 e-Manual  :  http://emanual.robotis.com/docs/en/platform/turtlebot3/a
 
 * step3. build catkin_ws
   
-  `$ cd ~/turtlebot3_burger/catkin_ws/openCR_setup.sh`
+  `$ cd ~/turtlebot3_burger/catkin_ws`
 
-  `$ catkin_make`
+  `$ catkin_make -j1`
