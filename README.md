@@ -21,6 +21,16 @@ Wet-Chih , Lin ( kjoelovelife@gmail.com )
   `$ cd ~/turtlebot3_burger/catkin_ws`
 
   `$ catkin_make`
+  
+  Then edit the ~/.bashrc , and write
+  
+  ` source ~/turtlebot3_burger/catkin_ws/devel/setup.bash `
+
+  ` source ~/turtlebot3_burger/set_ros_master.sh `
+  
+  ` export TURTLEBOT3_MODEL=burger `
+  
+  Note: We us laptop to be master.
 
 # Operate on raspberry pi for Turtlebot3 burger
 
@@ -39,3 +49,13 @@ Wet-Chih , Lin ( kjoelovelife@gmail.com )
   `$ cd ~/turtlebot3_burger/catkin_ws`
 
   `$ catkin_make -j1`
+  
+  Then edit the ~/.bashrc , and write
+  
+  ` source ~/turtlebot3_burger/catkin_ws/devel/setup.bash `
+
+  ` source ~/turtlebot3_burger/set_ros_master.sh HOSTNAME`
+  
+  ` export TURTLEBOT3_MODEL=burger `
+  
+  Note: We us laptop to be master , so " HOSTNAME " must be your hostname of laptop.
