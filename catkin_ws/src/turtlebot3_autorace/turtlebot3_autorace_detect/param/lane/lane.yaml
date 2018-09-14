@@ -8,10 +8,10 @@ detect:
       lightness_l: 176
       lightness_h: 255
     yellow:
-      hue_l: 0
-      hue_h: 30
-      saturation_l: 160
-      saturation_h: 100
+      hue_l: 20
+      hue_h: 60
+      saturation_l: 100
+      saturation_h: 160
       lightness_l: 60
       lightness_h: 255
 
