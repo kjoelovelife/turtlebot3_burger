@@ -2,15 +2,33 @@ detect:
   lane:
     white:
       hue_l: 0
-      hue_h: 25
+      hue_h: 120
       saturation_l: 0
-      saturation_h: 36
-      lightness_l: 180
+      saturation_h: 50
+      lightness_l: 176
       lightness_h: 255
     yellow:
-      hue_l: 27
-      hue_h: 41
-      saturation_l: 130
-      saturation_h: 255
-      lightness_l: 160
+      hue_l: 0
+      hue_h: 30
+      saturation_l: 160
+      saturation_h: 100
+      lightness_l: 60
       lightness_h: 255
+
+## default ##
+#detect:
+#  lane:
+#    white:
+#      hue_l: 0
+#      hue_h: 25
+#      saturation_l: 0
+#      saturation_h: 36
+#      lightness_l: 180
+#      lightness_h: 255
+#    yellow:
+#      hue_l: 27
+#      hue_h: 41
+#     saturation_l: 130
+#      saturation_h: 255
+#      lightness_l: 160
+#      lightness_h: 255
