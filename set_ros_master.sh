@@ -10,4 +10,4 @@ fi
 IP=`ifconfig | grep 'inet addr:' | grep -v '127.0.0.1' | cut -d: -f2 | awk {'print $1'}`
 export ROS_HOSTNAME=$IP
 echo "ROS_MASTER_URI set to $ROS_MASTER_URI"
-echo "ROS_HOSTNAME set to $ip"
+echo "ROS_HOSTNAME set to $IP"
