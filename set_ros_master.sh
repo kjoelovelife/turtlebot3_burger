@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Shell script scripts to det ROS_MASTER and ROS_HOSTNAME
+# Shell script scripts to set ROS_MASTER and ROS_HOSTNAME
 # -------------------------------------------------------------------------
 #Copyright © 2018 Wei-Chih Lin , kjoelovelife@gmail.com 
 
