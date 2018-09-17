@@ -41,9 +41,9 @@ class ControlLane():
     def cbFollowLane(self, desired_center):
         center = desired_center.data
 
-        error = center - 500
+        error = center - 500 # default: -500
 
-        Kp = 0.0025
+        Kp = 0.001 # default: 0.0025
         Kd = 0.007
 
         angular_z = Kp * error + Kd * (error - self.lastError)
