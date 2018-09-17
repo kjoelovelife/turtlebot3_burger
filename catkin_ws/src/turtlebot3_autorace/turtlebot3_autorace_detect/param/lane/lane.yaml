@@ -5,15 +5,35 @@ detect:
       hue_h: 120
       saturation_l: 0
       saturation_h: 50
-      lightness_l: 176
-      lightness_h: 255
+      lightness_l: 100
+      lightness_h: 200
     yellow:
       hue_l: 20
       hue_h: 60
-      saturation_l: 100
-      saturation_h: 160
-      lightness_l: 60
-      lightness_h: 255
+      saturation_l: 140
+      saturation_h: 200
+      lightness_l: 40
+      lightness_h: 150
+
+
+## makerlab ##
+#detect:
+#  lane:
+#    white:
+#      hue_l: 0
+#      hue_h: 120
+#      saturation_l: 0
+#      saturation_h: 50
+#      lightness_l: 176
+#      lightness_h: 255
+#    yellow:
+#      hue_l: 20
+#      hue_h: 60
+#     saturation_l: 100
+#      saturation_h: 160
+#      lightness_l: 60
+#      lightness_h: 255
+
 
 ## default ##
 #detect:
