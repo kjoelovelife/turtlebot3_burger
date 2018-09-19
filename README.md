@@ -40,7 +40,7 @@ Wet-Chih , Lin ( kjoelovelife@gmail.com )
   
 * Step4. set up SSH
  
-   ` source ~/turtlebot3_burger/catkin_ws/devel/setup.bash `
+   ` source ~/turtlebot3_burger/ssh_setup.sh `
 
 # Operate on laptop
 
@@ -58,15 +58,15 @@ Wet-Chih , Lin ( kjoelovelife@gmail.com )
   
   ` source ~/turtlebot3_burger/catkin_ws/devel/setup.bash `
 
-  ` source ~/turtlebot3_burger/set_ros_master.sh `
+  ` source ~/turtlebot3_burger/set_ros_master.sh Hostname`
   
   ` export TURTLEBOT3_MODEL=burger `
   
   Note: We us laptop to be master.
 
-* Step3. set up SSH
+* Step3. set up SSH.
  
-   ` source ~/turtlebot3_burger/catkin_ws/devel/setup.bash `
+   ` source ~/turtlebot3_burger/ssh_setup.sh `
 
 * Step4. copy ssh id from raspberry pi
 
