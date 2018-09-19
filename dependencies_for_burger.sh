@@ -62,6 +62,7 @@ sudo apt-get install -y \
          ros-kinetic-image-transport \
          ros-kinetic-cv-bridge \
          ros-kinetic-vision-opencv \
+         ros-kinetic-opencv3 \
          ros-kinetic-image-proc \
          python-opencv \
          libopencv-dev
