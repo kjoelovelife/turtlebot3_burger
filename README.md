@@ -14,7 +14,7 @@ Wet-Chih , Lin ( kjoelovelife@gmail.com )
 
 * Step1. download dependencies
 
-  `$ source dependencies_for_burger.sh`
+  `$ source ~/turtlebot3_burger/catkin_ws/dependencies_for_burger.sh`
 
 * Step2. allow raspberry pi to use USB port for OpenCR without acquiring root permission , and upload the driver to openCR 1.0 .
   
