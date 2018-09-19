@@ -58,7 +58,7 @@ Wet-Chih , Lin ( kjoelovelife@gmail.com )
   
   ` source ~/turtlebot3_burger/catkin_ws/devel/setup.bash `
 
-  ` source ~/turtlebot3_burger/set_ros_master.sh Hostname`
+  ` source ~/turtlebot3_burger/set_ros_master.sh `
   
   ` export TURTLEBOT3_MODEL=burger `
   
