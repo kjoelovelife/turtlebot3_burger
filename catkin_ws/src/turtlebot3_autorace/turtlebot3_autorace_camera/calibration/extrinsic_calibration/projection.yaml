@@ -1,8 +1,8 @@
 ## Makerlab ##
 camera:
   extrinsic_camera_calibration:
-    top_x: 100
-    top_y: 30
-    bottom_x: 180
-    bottom_y: 120
+    top_x: 120  ## limit:120
+    top_y: 120   ## limit:120
+    bottom_x: 320  ## limit:320
+    bottom_y: 120  ## limit:320
 
