@@ -10,8 +10,8 @@ detect:
     yellow:
       hue_l: 20
       hue_h: 60
-      saturation_l: 140
-      saturation_h: 200
+      saturation_l: 60
+      saturation_h: 180
       lightness_l: 40
       lightness_h: 150
 
